@@ -14,14 +14,16 @@ Summary: Bayesian network structure learning, parameter learning and inference. 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/r-bnlearn-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/r-bnlearn-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/r-bnlearn-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/r-bnlearn-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/r-bnlearn-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/r-bnlearn-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-bnlearn-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-bnlearn-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/r-bnlearn-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-bnlearn-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-bnlearn-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-bnlearn-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-bnlearn/badges/version.svg)](https://anaconda.org/conda-forge/r-bnlearn)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/r-bnlearn/badges/downloads.svg)](https://anaconda.org/conda-forge/r-bnlearn)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-r--bnlearn-green.svg)](https://anaconda.org/conda-forge/r-bnlearn) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/r-bnlearn.svg)](https://anaconda.org/conda-forge/r-bnlearn) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/r-bnlearn.svg)](https://anaconda.org/conda-forge/r-bnlearn) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/r-bnlearn.svg)](https://anaconda.org/conda-forge/r-bnlearn) |
 
 Installing r-bnlearn
 ====================
