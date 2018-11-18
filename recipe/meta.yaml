@@ -18,8 +18,6 @@ source:
 build:
   merge_build_host: True  # [win]
   number: 1000
-  skip: true  # [win32]
-
   rpaths:
     - lib/R/lib/
     - lib/
@@ -55,8 +53,8 @@ about:
     inference, conditional probability queries and cross-validation. Development snapshots
     with the latest bugfixes are available from <http
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+
 extra:
    recipe-maintainers:
     - MathiasHaudgaard
