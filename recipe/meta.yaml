@@ -1,4 +1,4 @@
-{% set version = '4.3' %}
+{% set version = "4.4.1" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -13,11 +13,11 @@ source:
     - https://cran.r-project.org/src/contrib/bnlearn_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/bnlearn/bnlearn_{{ version }}.tar.gz
 
-  sha256: 78bb1d45977801ffa64f04f4319fa6e1fe9b5268f42b197d33aac074dc46f787
+  sha256: 73689fdab937cb5ed5c8ae22607cb3038a161c91030d7e1a1a05145348aa64d9
 
 build:
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
