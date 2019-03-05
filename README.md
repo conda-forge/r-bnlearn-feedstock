@@ -1,13 +1,17 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About r-bnlearn
 ===============
 
-Home: https://cran.r-project.org/web/packages/bnlearn/index.html
+Home: http://www.bnlearn.com/
 
 Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Bayesian network structure learning, parameter learning and inference. This package implements constraint-based (PC, GS, IAMB, Inter-IAMB, Fast-IAMB, MMPC, Hiton-PC), pairwise (ARACNE and Chow-Liu), score-based (Hill-Climbing and Tabu Search) and hybrid (MMHC and RSMAX2) structure learning algorithms for discrete, Gaussian and conditional Gaussian networks, along with many score functions and conditional independence tests. The Naive Bayes and the Tree-Augmented Naive Bayes (TAN) classifiers are also implemented. Some utility functions (model comparison and manipulation, random data generation, arc orientation testing, simple and advanced plots) are included, as well as support for parameter estimation (maximum likelihood and Bayesian) and inference, conditional probability queries and cross-validation. Development snapshots with the latest bugfixes are available from <http
+Summary: Bayesian network structure learning, parameter learning and inference. This package implements constraint-based (PC, GS, IAMB, Inter-IAMB, Fast-IAMB, MMPC, Hiton-PC), pairwise (ARACNE and Chow-Liu), score-based (Hill-Climbing and Tabu Search) and hybrid (MMHC and RSMAX2) structure learning algorithms for discrete, Gaussian and conditional Gaussian networks, along with many score functions and conditional independence tests. The Naive Bayes and the Tree-Augmented Naive Bayes (TAN) classifiers are also implemented. Some utility functions (model comparison and manipulation, random data generation, arc orientation testing, simple and advanced plots) are included, as well as support for parameter estimation (maximum likelihood and Bayesian) and inference, conditional probability queries and cross-validation. Development snapshots with the latest bugfixes are available from <http://www.bnlearn.com>.
 
 
 
@@ -49,6 +53,8 @@ conda search r-bnlearn --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -104,3 +110,12 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@ArneKr](https://github.com/ArneKr/)
+* [@FrodePedersen](https://github.com/FrodePedersen/)
+* [@MathiasHaudgaard](https://github.com/MathiasHaudgaard/)
+* [@conda-forge/r](https://github.com/conda-forge/r/)
+
