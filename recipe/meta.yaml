@@ -1,4 +1,4 @@
-{% set version = "4.8.3" %}
+{% set version = "4.9" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bnlearn_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bnlearn/bnlearn_{{ version }}.tar.gz
-  sha256: c68ab7c5835dc210437eeedd61ddb1a10dac59279f3775ff006ed563c733cda7
+  sha256: 5159ab0e4b4785ce830726284bdd52d8e1e444a34109b657d022c07b14449227
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
