@@ -1,4 +1,4 @@
-{% set version = "5.0" %}
+{% set version = "5.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bnlearn_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bnlearn/bnlearn_{{ version }}.tar.gz
-  sha256: e786203121980972c33e1e63736cbc218f9aea8f9b37853a6cd3af762c0279a1
+  sha256: 2452bd9523dbb4d6a44553cd67096523ba4d18800deef7b376e694d7c60af99e
 
 build:
   number: 0
