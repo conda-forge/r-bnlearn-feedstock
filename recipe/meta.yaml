@@ -1,18 +1,18 @@
-{% set version = "5.1" %}
+{% set version = "5.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
   name: r-bnlearn
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace('-', '_') }}"
 
 source:
   url:
     - {{ cran_mirror }}/src/contrib/bnlearn_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bnlearn/bnlearn_{{ version }}.tar.gz
-  sha256: 625568dc7e7773934867ffd36b1898bfb56b80937736b81a00479920616fdb96
+  sha256: f4d88fd784363ad9ff4f14b2ad7641ea5e62b2985be116481269458704338c72
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -42,9 +42,9 @@ test:
 about:
   home: http://www.bnlearn.com/
   license: GPL-2.0-or-later
-  summary: Bayesian network structure learning, parameter learning and inference. This package implements constraint-based (PC, GS, IAMB, Inter-IAMB, Fast-IAMB, MMPC, Hiton-PC), pairwise (ARACNE and Chow-Liu), score-based (Hill-Climbing and Tabu Search) and hybrid (MMHC and RSMAX2) structure learning algorithms for discrete,
-    Gaussian and conditional Gaussian networks, along with many score functions and conditional independence tests. The Naive Bayes and the Tree-Augmented Naive Bayes (TAN) classifiers are also implemented. Some utility functions (model comparison and manipulation, random data generation, arc orientation testing, simple
-    and advanced plots) are included, as well as support for parameter estimation (maximum likelihood and Bayesian) and inference, conditional probability queries and cross-validation. Development snapshots with the latest bugfixes are available from <http://www.bnlearn.com>.
+  summary: Bayesian network structure learning, parameter learning and inference. This package implements constraint-based (PC, GS, IAMB, Inter-IAMB, Fast-IAMB, MMPC, Hiton-PC), pairwise (ARACNE and Chow-Liu), score-based (Hill-Climbing and Tabu Search) and hybrid (MMHC and RSMAX2) structure learning algorithms for 
+    discrete, Gaussian and conditional Gaussian networks, along with many score functions and conditional independence tests. The Naive Bayes and the Tree-Augmented Naive Bayes (TAN) classifiers are also implemented. Some utility functions (model comparison and manipulation, random data generation, arc orientation 
+    testing, simple and advanced plots) are included, as well as support for parameter estimation (maximum likelihood and Bayesian) and inference, conditional probability queries and cross-validation. Development snapshots with the latest bugfixes are available from <http://www.bnlearn.com>.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
